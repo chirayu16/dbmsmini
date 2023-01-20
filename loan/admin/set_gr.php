@@ -6,7 +6,7 @@
 	<style type="text/css">
 		*{
 			margin: 0px;
-			padding: 0px;
+			padding: 0.1px;
 		}
 		.main{
 			width: 100%;
