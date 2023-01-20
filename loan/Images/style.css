@@ -1,0 +1,304 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.main{
+	width: 100%;
+}
+.sub{
+	width: 70%;
+	margin: auto;
+}
+.gray{
+	background-color: #F8F8F8;
+}
+.bg{
+	background-color: #E8E8E8;
+}
+.clear{
+	clear: both;
+}
+.hr{
+	height: 10px;
+	background-color: #E8E8E8;
+	border: 1px solid #E8E8E8;
+}
+.marquee{
+	background-color: #e6b3b3;
+	height: 50px;
+	line-height: 50px;
+	color: #000000;
+	font-size: 20px;
+	font-family: oswald;
+	text-align: center;
+}
+#h1{
+	height: 100%;
+	line-height: 55px;
+}
+#h2{
+	height: 250px;
+	border: 1px solid #E8E8E8;
+	align-content: center;
+}
+#top_l{
+	height: 30px;
+	width: 30%;
+	float: left;
+	margin-left: 3px;
+}
+#top_l img{
+	width: 30px;
+	margin: 5px;
+	height: 25px;
+	margin-top: 15px;
+}
+#top_l img:hover{
+	box-shadow: 5px 5px 20px black;
+}
+#left{
+	float: left;
+	width: 40%;
+	height: 250px;
+}
+#left img{
+	height: 250px;
+	width: 100%;
+}
+#top_r{
+	float: right;
+	width: 69%;
+	text-align: right;
+	font-size: 20px;
+	color: #D80000;
+	text-shadow: 5px 5px 15px gray;
+	cursor: help;
+}
+a{
+	text-decoration: none;
+}
+#right{
+	float: right;
+	line-height: 250px;
+	width: 60%;
+	height: 250px;
+	margin: auto;
+	align-content: center;
+	left: 0;
+	right: 0;
+}
+#right ul{
+	list-style: none;
+	text-align: center;
+}
+#right ul li{
+	display:inline-block;
+	width: 20%;
+	line-height: 60px;
+	margin: 10px; 
+	text-align:center;
+	position:relative;
+	font-size: 24px;
+}
+#right ul li a{
+	color: #D9338C;
+	display: block;
+	height: 65px;
+	text-shadow: 5px 5px 20px gray;
+}
+#right ul li a:hover{
+	background-color: #FF4D4D;
+	color: white;
+	text-shadow: 5px 5px 20px #0000FF;
+	box-shadow: 5px 5px 15px 5px gray;
+}
+#mar{
+	animation: mar 3s infinite;
+}
+#mar:hover{
+	animation: hover 5s infinite;
+}
+.slider{
+	height: 700px;
+}
+.placeholder{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+#register , #login{
+	width: 48%;
+	height: 100px;
+	text-align: center;
+	background-color: #ffffb3;
+	font-family: oswald;
+	font-size: 35px;
+	word-wrap: break-word;
+}
+#register a, #login a{
+	text-decoration: none;
+}
+#register{
+	float: left;
+}
+#login{
+	float: right;
+}
+#register ul, #login ul{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#register ul li, #login ul li{
+	width: 100%;
+	color: #228B22;
+	line-height: 40px;
+	text-shadow: 5px 5px 20px gray;
+}
+#register:hover{
+	box-shadow: 5px 5px 20px 5px gray;
+}
+#login:hover{
+	box-shadow: 5px 5px 20px 5px gray;
+}
+#register span, #login span{
+	font-size: 20px;
+	height: 10px;
+	color: red;
+	text-shadow: 5px 5px 20px gray;
+}
+.tag{
+	width: 100%;
+	height: 500px;
+}
+#image img{
+	width: 50%;
+	height: 500px;
+	top: 0;
+	left: 0;
+	float: left;
+}
+#text{
+	width: 50%;
+	height: 100%;
+	margin: auto;
+	float: right;
+	word-wrap: break-word;
+}
+#text h1{
+	margin-top: 10px;
+	color: #990000;
+	text-align: center;
+	font-size: 50px;
+}
+#text ul{
+	margin-left: 150px;
+	margin-right: 100px;
+	text-transform: capitalize;
+	word-spacing: 10px;
+}
+#text ul li{
+	font-size: 30px;
+	font-family: sans-serif;
+	font-style: italic;
+	color: #666600;
+}
+#pt{
+	float: left;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	word-wrap: break-word;
+}
+#pt h1{
+	margin-top: 10px;
+	color: #990000;
+	text-align: center;
+	font-size: 50px;
+}
+#pi img{
+	float: right;
+	width: 50%;
+	height: 500px;
+	top: 0;
+	left: 0;
+}
+#policy{
+	text-align: center;
+	margin: auto;
+	height: 300px;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+table th{
+	background-color: #2F4F4F;
+	text-align:center;
+	color: white;
+	font-size: 20px;
+	text-transform: capitalize; 
+	padding: 4px 5px;
+}
+table tr{
+	background-color: #A9A9A9;
+	text-align: center;
+	border: 2px solid black;
+	color: white;
+	font-size: 20px;
+}
+table td{
+	border: 2px solid black;
+}
+@keyframes mar{
+	0%{
+		opacity: .1;
+	}
+	25%%{
+		opacity: .3;
+	}
+	50%{
+		opacity: .5;
+	}
+	75%{
+		opacity: .7;
+	}
+	90%{
+		opacity: .9;
+	}
+	100%{
+		opacity: .10;
+	}
+	90%{
+		opacity: .9;
+	}
+	75%{
+		opacity: .7;
+	}
+	50%{
+		opacity: .5;
+	}
+	25%%{
+		opacity: .3;
+	}
+	0%{
+		opacity: .1;
+	}
+}
+@keyframes hover{
+	0%{color: red;}
+	25%{color: green;}
+	50%{color: yellow;}
+	75%{color: blue;}
+	100%{color: black;}
+}
+.footer{
+	height: 50px;
+	background-color: #580000;
+	width: 100%;
+	text-align: center;
+	color: white;
+	line-height: 50px;
+}
